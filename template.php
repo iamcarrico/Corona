@@ -13,7 +13,7 @@ function corona_preprocess_maintenance_page(&$vars, $hook) {
   // preprocess_page, that same work is probably needed for the maintenance page
   // as well, so we can just re-use those functions to do that work here.
   corona_preprocess_html($variables, $hook);
-  corona_preprocess_page($variables, $hook);
+  // corona_preprocess_page($variables, $hook);
 
   // This preprocessor will also be used if the db is inactive. To ensure your
   // theme is used, add the following line to your settings.php file:
@@ -30,9 +30,6 @@ function corona_preprocess_maintenance_page(&$vars, $hook) {
  *   The name of the template being rendered ("html" in this case.)
  */
 function corona_preprocess_html(&$vars) {
-  // Be sure replace this with a custom Modernizr build!
-  drupal_add_js(drupal_get_path('theme', 'corona') . '/javascripts/modernizr-2.5.3.js', array('force header' => true));
-  
   // yep/nope for conditional JS loading!
   drupal_add_js(drupal_get_path('theme', 'corona') . '/javascripts/loader.js');
 }
@@ -45,8 +42,9 @@ function corona_preprocess_html(&$vars) {
  * @param $hook
  *   The name of the template being rendered ("page" in this case.)
  */
+/* -- Delete this line if you want to use this function
 function corona_preprocess_page(&$vars) {
-  // Leaving this on by default for the maintainance page preprocessor.
+
 }
 
 /**

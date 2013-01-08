@@ -1,4 +1,6 @@
-* {
+*,
+*:after,
+*:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -141,7 +143,7 @@ figure {
 
 /* normalize.css v2.0.1 | Forms | MIT License | git.io/normalize */
 fieldset {
-  border: 1px solid #c0c0c0;
+  border: 1px solid silver;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
@@ -214,13 +216,17 @@ table {
   border-spacing: 0;
 }
 
+.clearfix:before, .clearfix:after {
+  display: table;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+
 /**
  * Defaults: For any general elements to apply to the whole page.
  */
-.clearfix {
-  overflow: hidden;
-}
-
 /**
 * Typography: Headings, body text, lists, code, and more for a versatile and durable typography system.
 */
@@ -288,7 +294,7 @@ ol ul {
 
 hr {
   height: 1px;
-  border: 1px solid #666;
+  border: 1px solid #666666;
   padding-bottom: -1px;
   margin: 1.5em 0;
 }
@@ -322,3 +328,7 @@ select,
 textarea {
   font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
+
+/**
+ * Design partials: A place to put your specific design partials.
+ */
