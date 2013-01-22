@@ -4,7 +4,7 @@ This repository is merely a sample of what the [Aurora compass extension](https:
 
 ## How to use
 
-To use, install the compass-aurora gem, as well as [susy](http://susy.oddbird.net). If you are usign Ruby gems, this can be acomplished by this line of code:
+To use, install the compass-aurora gem, as well as [susy](http://susy.oddbird.net). If you are using Ruby gems, this can be acomplished by this line of code:
 
 ```
 gem install compass-aurora susy
@@ -20,7 +20,7 @@ More information can be found on [my blog post on the subject](http://fourkitche
 
 ## What is Corona?
 
-Corona is part of the [Aurora compass extension](https://github.com/Snugug/Aurora) and is built to be a more rubust and full sub-theme for Aurora. It has a more complete partial structure, and more preprocessors ready to be used in the template.php file. It is meant as a good boilerplate to begin advanced theming for a Drupal site with [Aurora](http://www.drupal.org/project/aurora) as the base theme.
+Corona is part of the [Aurora compass extension](https://github.com/Snugug/Aurora) and is built to be a more robust and full sub-theme for Aurora. It has a more complete partial structure, and more preprocessors ready to be used in the template.php file. It is meant as a good boilerplate to begin advanced theming for a Drupal site with [Aurora](http://www.drupal.org/project/aurora) as the base theme.
 
 ## What can I do to contribute?
 
