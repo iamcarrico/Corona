@@ -15,7 +15,7 @@ Once you have the compass-aurora and susy ruby gems installed, you can create a 
 compass create [theme-name] -r aurora --using aurora/corona
 ```
 
-More information can be found on [my blog post on the subject](http://fourkitchens.com/blog/2012/11/13/compass-aurora-corona-oh-my).
+More information can be found on [my blog post on the subject](http://fourword.fourkitchens.com/article/compass-aurora-and-corona-oh-my).
 
 
 ## What is Corona?
